@@ -6,6 +6,9 @@ Running `demo.py` will run a simple demo that demonstrates the neural network in
 
 All assets required are included in this repo.
 
+Visul from `demo.py`
+![demo](demo_pic.png)
+
 ### Project Overview
 This project focuses on indirect robotic manipulation, where a robot arm learns to push a target cube to a goal using an intermediate cube. It utilizes a data-driven approach where a neural network first learns the complex physics of the multi-body interactions. This learned model then guides a Model Predictive Path Integral (MPPI) controller to plan a sequence of pushes within a PyBullet simulation.
 
